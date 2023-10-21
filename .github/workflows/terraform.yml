@@ -46,6 +46,10 @@ name: 'Terraform'
 
 on:
   workflow_dispatch:
+    inputs:
+      aws_region:
+        description: 'AWS Region'
+        required: true
 #   push:
 #     branches: [ "main" ]
 #   pull_request:
